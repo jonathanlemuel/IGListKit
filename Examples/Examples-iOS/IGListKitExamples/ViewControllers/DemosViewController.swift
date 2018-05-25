@@ -64,7 +64,9 @@ final class DemosViewController: UIViewController, ListAdapterDataSource {
         DemoItem(name: "Reorder Cells",
                  controllerClass: ReorderableViewController.self),
         DemoItem(name: "Reorder Stacked Section Controllers",
-                 controllerClass: ReorderableStackedViewController.self)
+                 controllerClass: ReorderableStackedViewController.self),
+        DemoItem(name: "Decorated Layout",
+                 controllerClass: DecoratedLayoutViewController.self)
     ]
 
     override func viewDidLoad() {
